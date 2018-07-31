@@ -1,4 +1,6 @@
-#include "./tcp_connection.cpp"
+#ifndef TCP_SERVER_HPP_
+#define TCP_SERVER_HPP_
+#include "./tcp_connection.hpp"
 
 class tcp_server {
 public:
@@ -12,3 +14,5 @@ private:
 
   tcp::acceptor acceptor_;
 };
+
+#endif /* !TCP_SERVER_HPP_ */

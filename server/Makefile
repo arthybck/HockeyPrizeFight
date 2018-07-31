@@ -1,6 +1,8 @@
 NAME	=	server
 
-SRC	= 	main.cpp
+SRC	= 	main.cpp \
+				network/tcp_connection.cpp \
+				network/tcp_server.cpp
 
 OBJ		=	$(SRC:.cpp=.o)
 

@@ -1,3 +1,6 @@
+#ifndef TCP_connection_HPP_
+#define TCP_connection_HPP_
+
 #include <boost/asio.hpp>
 #include <boost/bind.hpp>
 #include <boost/enable_shared_from_this.hpp>
@@ -19,3 +22,5 @@ private:
   tcp::socket socket_;
   std::string message_;
 };
+
+#endif /* !TCP_connection_HPP_ */

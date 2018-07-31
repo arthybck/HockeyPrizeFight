@@ -8,12 +8,10 @@
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 //
 
-#include "./network/tcp_server.cpp"
+#include "./network/tcp_server.hpp"
 #include <boost/asio.hpp>
 #include <iostream>
 #include <string>
-
-using boost::asio::ip::tcp;
 
 int main() {
   try {
