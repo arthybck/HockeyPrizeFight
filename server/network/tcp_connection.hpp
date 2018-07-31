@@ -4,6 +4,7 @@
 #include <boost/asio.hpp>
 #include <boost/bind.hpp>
 #include <boost/enable_shared_from_this.hpp>
+#include <iostream>
 
 using boost::asio::ip::tcp;
 
@@ -14,6 +15,7 @@ public:
   static pointer create(boost::asio::io_context &);
   tcp::socket &socket();
   void start();
+  void tcp_write(const std::string &);
 
 private:
   tcp_connection(boost::asio::io_context &);

@@ -12,7 +12,10 @@ private:
   void handle_accept(tcp_connection::pointer,
                      const boost::system::error_code &);
 
+  void broadcast(const std::string &);
+
   tcp::acceptor acceptor_;
+  std::vector<tcp_connection::pointer> connection_list;
 };
 
 #endif /* !TCP_SERVER_HPP_ */
