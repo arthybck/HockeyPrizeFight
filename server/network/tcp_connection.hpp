@@ -18,11 +18,14 @@ public:
   void tcp_write(const std::string &);
 
 private:
+  void tcp_read();
   tcp_connection(boost::asio::io_context &);
   void handle_write(const boost::system::error_code &, size_t);
+  void handle_read(const boost::system::error_code &, size_t);
 
   tcp::socket socket_;
-  std::string message_;
+  boost::asio::streambuf read_message_;
+  boost::asio::streambuf buf;
 };
 
 #endif /* !TCP_connection_HPP_ */
