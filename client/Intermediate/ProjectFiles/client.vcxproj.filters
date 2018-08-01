@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\client.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{0B7FC945-0FB8-4FD0-883E-769F6646C8C0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\client.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\clientEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F3EA64CF-F9FD-41A1-8AC3-511A9EEEED91}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\client">
+			<UniqueIdentifier>{74B6604B-996C-4C2C-A469-839833786ECE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\client\client.Build.cs">
+			<Filter>Source\client</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\client\client.cpp">
+			<Filter>Source\client</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\client\client.h">
+			<Filter>Source\client</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\client\clientGameModeBase.cpp">
+			<Filter>Source\client</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\client\clientGameModeBase.h">
+			<Filter>Source\client</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

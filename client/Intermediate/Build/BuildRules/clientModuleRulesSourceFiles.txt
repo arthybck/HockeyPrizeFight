@@ -1,0 +1,3 @@
+D:\school\Shared Folder\HockeyPrizeFight\client\Source\client\client.Build.cs
+D:\school\Shared Folder\HockeyPrizeFight\client\Source\client.Target.cs
+D:\school\Shared Folder\HockeyPrizeFight\client\Source\clientEditor.Target.cs
