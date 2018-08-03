@@ -18,15 +18,14 @@ void tcp_server::handle_accept(tcp_connection::pointer new_connection,
                                const boost::system::error_code &error) {
   if (!error) {
     new_connection->start();
-    this->connection_list.push_back(new_connection);
-    broadcast("broadcast\n");
+    connection_list.push_back(new_connection);
   }
 
   start_accept();
 }
 
 void tcp_server::broadcast(const std::string &message_) {
-  for (auto connection : this->connection_list) {
+  for (auto connection : connection_list) {
     connection->tcp_write(message_);
   }
 }

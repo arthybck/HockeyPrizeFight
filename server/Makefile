@@ -8,7 +8,7 @@ OBJ		=	$(SRC:.cpp=.o)
 
 CFLAGS	= #-Wall -Wextra -Werror
 
-LDFLAGS = -lboost_system -lpthread
+LDFLAGS = -lboost_system -lpthread -lboost_iostreams -lboost_serialization
 
 INCLUDE = -I /usr/local/boost_1_67_0/
 
