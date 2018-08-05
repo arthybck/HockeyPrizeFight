@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-client-5337.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\clientEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\client.cpp.obj"
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\clientGameModeBase.cpp.obj"
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\clientService.cpp.obj"
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\client.init.gen.cpp.obj"
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\clientGameModeBase.gen.cpp.obj"
+"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\PCLaunch.rc.res"
+/OUT:"D:\school\Shared Folder\HockeyPrizeFight\client\Intermediate\Build\Win64\UE4Editor\Development\client\UE4Editor-client-5337.lib"
