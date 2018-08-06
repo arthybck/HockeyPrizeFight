@@ -58,9 +58,15 @@
     <ClInclude Include="..\..\Source\client\AHUD.h">
       <Filter>Source\client</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\client\MainMenuHUD.h">
+      <Filter>Source\client</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\client\AHUD.cpp">
+      <Filter>Source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\client\MainMenuHUD.cpp">
       <Filter>Source\client</Filter>
     </ClCompile>
   </ItemGroup>

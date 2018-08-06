@@ -425,7 +425,9 @@
     <ClInclude Include="..\..\Source\client\clientGameModeBase.h" />
     <ClCompile Include="..\..\Source\client\clientService.cpp" />
     <ClInclude Include="..\..\Source\client\clientService.h" />
+    <ClCompile Include="..\..\Source\client\MainMenuHUD.cpp" />
     <ClCompile Include="..\..\Source\client\TCPClient.cpp" />
+    <ClInclude Include="..\..\Source\client\MainMenuHUD.h" />
     <ClInclude Include="..\..\Source\client\TCPClient.h" />
   </ItemGroup>
   <PropertyGroup>
